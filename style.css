@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{font-family:sans-serif}
+ .container{width:1000px;margin:auto}
+ /*start header */
+ .header .navbar{width:100%;position:fixed;background-color:#243030;color:#fff;overflow:hidden;}
+  .header .navbar ul
+  {
+	  list-style:none;
+	  padding-left:0px;
+	  overflow:hidden;
+	  display:inline-block;
+	  float:right;
+  }
+  a{text-decoration:none}
+   .header .navbar ul li{float:left;padding:20px;font-size:18px}
+   .header .navbar ul li a{color:white}
+   .header .navbar .container h1{float:left;margin-top:10px}
+    span{color:#2dcc70}
+	.header .navbar ul li a:hover{color:#2dcc70;font-size:20px}
+   .header .slider
+   
+   {   
+	   background-image:url('web-development-t.jpg');
+                      background-position:center;
+					  background-repeat:no-repeat;
+					  background-size:cover;
+					  height:600px;
+					  
+   }
+     .header .slider .heading
+	 {padding-top:200px;width:43%;margin:auto;
+	 text-align:center;color:white;;
+	 }
+   .header .slider .heading  h1
+   {
+   font-size:50px;border-bottom:3px solid white;border-top:3px solid white ;font-weight:normal
+   }
+    .header .slider .heading button
+	{
+		padding:15px;margin-top:70px;font-size:27px;border:0px solid black;color:#2dcc70;border-radius:35px;
+	}
+	.header .slider .heading button:hover{}
+ 
+  /* end header */
+  
+  /* start skills section*/
+  .box{width:33%;display:inline-block;height:170px;margin:60px 0px}
+   .box h1{padding-bottom:30px;padding-left:20px;padding-right:20px;color:#2dcc70}
+   .box p{padding-left:20px;padding-right:20px;text-align:justify}
+   
+  /*end  skills section*/
+  
+  /* start about section*/
+    .about{background-color:#f2f2f2;overflow:hidden;height:750px}
+	
+	 .about  img{ float:left;width:40%;height:750px}
+	 .about .text{float:right;width:60%;padding-left:20px;padding-top:25px}
+	 .about .text h1{padding-bottom:20px;padding-top:50px}
+	 
+	 .about .text .box{width:50%;float:left;padding-left:20px;margin-bottom:-80px}
+	 .about  .text .box table tr td{padding-left:3px}
+	  .about .text .box table tr td h3{padding-left:20px;padding-bottom:15px}
+	
+  /*end about section*/
+  
+  /*start my skills section*/
+  .skills{height:550px}
+  .skills .myskills{float:left;width:50%;padding-right:40px;text-align:justify;padding-top:80px}
+  .skills .myskills h1{font-weight:normal;font-size:40px;padding-bottom:20px}
+    .btn{background-color:#f2f2f2;padding:13px 25px;color:#2dcc70;font-size:25px;
+   border:3px solid #2dcc70;margin-top:35px;border-radius:5px}
+  
+   
+   .skills .lang{float:right;width:50%;margin-top:85px;padding-left:20px}
+   .skills .lang h4{padding-bottom:12px}
+   .skills .lang span{float:right;color:white;padding:5px;font-weight:bold}
+   .skills .lang .d{height:30px;background-color:#f2f2f2}
+   .skills .lang .d .d1{height:30px;width:90%;background-color:#2dcc70} 
+   .skills .lang .d .d2{height:30px;width:80%;background-color:#2dcc70}
+    .skills .lang .d .d3{height:30px;width:95%;background-color:#2dcc70}
+	 .skills .lang .d .d4{height:30px;width:70%;background-color:#2dcc70}
+     .skills .lang .h{padding-top:40px}
+  /* end my skills section*/
+  
+  /*start resume section*/
+  
+  .resume{height:320px;background-color:#f2f2f2;text-align:center}
+  .resume h1{padding-top:80px;padding-bottom:20px}
+  .resume p{line-height:1.8em}
+  .resume button{background-color:white}
+   
+  
+  
+  /*end resume section*/
+  
+  /*start my education section*/
+  .education{overflow:hidden;text-align:justify;height:650px}
+  .education .edu{overflow:hidden;width:50%;float :left;padding-right:30px}
+  .education .edu h1{padding-top:50px;padding-bottom:30px}
+   .education .edu p{padding-bottom:10px}
+  .education .qualifications{overflow:hidden;width:50%;float :right;padding-left:30px}
+   .education .qualifications .heading3{padding-top:115px;padding-bottom:15px}
+    .education .qualifications h3{padding-bottom:15px}
+    .education .qualifications .gpa{background-color:#2dcc70;color:white;width:90px;
+	font-weight:bold;text-align:center;padding:10px 0px;margin:15px 0px}
+	 .education .qualifications hr{margin:20px 0px}
+	 .education .qualifications div{margin-bottom:60px}
+	  .work{height:950px}
+	  
+	  
+	 .john {overflow:hidden;background-color:#f2f2f2;height:300px;text-align:center;line-height:1.7em}
+	 .john p{font-size:18px;font-style:italic;padding-top:90px;padding-bottom:40px;color:#333}
+	 .john h3{padding-bottom:20px}
+	  .john .fa{font-size:20px; color:#2dcc70}
+	  .john .i1{color:black}
+	  .john .i2:hover{color:black;}
+	
+   
+  /* end my education section*/
+  
+  
+  /*start portfolio section*/
+   .portfolio{height:1000px;text-align:center;padding-top:100px}
+   
+   .portfolio p{color:#111;line-height:1.7em;margin:20px 0px 30px}
+   .portfolio img{width:31.5%;height:220px;float:left;margin-bottom:25px;text-align:center}
+   .portfolio .imgee{margin-left:13px;}
+   .portfolio .position{margin-left:22px;margin-right:22px}
+   
+  /* end portfolio section*/
+  
+  
+  /*start contact section*/
+    
+	.contact{background-color:#333;height:680px;padding-top:40px}
+	.contact-text{float:left;width:50%;padding-right:30px}
+	.contact  .contact-text h1{margin-top:50px;margin-bottom:30px;color:white}
+	.contact .contact-text p{color:#999;text-align:justify;line-height:1.7em;margin-bottom:30px}
+		.contact .contact-text p span{color:white;margin-right:30px}
+		.contact .inputs{float:right;width:50%;padding-left:30px;padding-top:90px}
+		.contact .inputs label{color:white}
+		.contact .inputs input{margin:10px 0px 30px;width:500px;height:40px;background-color:#666}
+		.contact .inputs textarea{width:500px;height:200px;background-color:#666;margin-top:10px}
+		.contact .inputs  button{background-color:black;color:white;padding:15px 30px;margin-top:40px;
+		font-size:18px}
+		.footer{height:200px;background-color:#111;color:#999;text-align:center;font-weight:bold}
+		.footer p{padding:40px;font-size:18px}
+		.footer a i{font-size:40px;color:#666;padding-left:10px;padding-bottom:25px}
+		.footer a i:hover{font-size:45px}
+  /* end contact section*/
